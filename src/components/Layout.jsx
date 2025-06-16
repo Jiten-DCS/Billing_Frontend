@@ -80,13 +80,13 @@ const Layout = ({ children }) => {
         <div className="p-2 border-b border-border flex items-center justify-between">
           {isSidebarOpen ? (
             <img
-              src="logo.jpeg"
+              src="logo.png"
               alt="logo"
               className="h-12 w-40 rounded-sm transition-opacity duration-300 ease-in-out opacity-100"
             />
           ) : (
             <img
-              src="favicon.jpeg"
+              src="favicon.png"
               alt="logo"
               className="h-10 mb-2 w-40 rounded-sm transition-opacity duration-300 ease-in-out opacity-100"
             />

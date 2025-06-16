@@ -34,7 +34,7 @@ const Login = () => {
       <div className="w-full max-w-md p-8 card-shadow animate-fade-in">
         <div className="text-center mb-8">
           <div className='flex justify-center items-center w-full'>
-            <img src="logo.jpeg" alt="logo" className='h-[50%] w-[30%] rounded-sm ' />
+            <img src="logo.png" alt="logo" className='h-[50%] w-[30%] rounded-sm ' />
           </div>
           <h1 className="text-2xl font-bold text-primary">Inventory Management System</h1>
           <p className="text-muted-foreground">Login to access your dashboard</p>
