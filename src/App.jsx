@@ -21,10 +21,10 @@ import ProductSalesDashboard from "./components/sales/ProductSalesDashboard";
 import Quotations from "./pages/Quotations";
 import Transactions from "./pages/Transactions";
 import NotFound from "./pages/NotFound";
-import { InvoiceProvider } from "./contexts/InvoiceContext";
 import UsersList from "./components/User/UsersList";
 import { PettyCashProvider } from "./contexts/PettyCashContext";
 import PettyCashManager from "./pages/PettyCashManager";
+import { InvoiceProvider } from "./contexts/InvoiceContext.jsx";
 
 const App = () => (
   <BrowserRouter>
