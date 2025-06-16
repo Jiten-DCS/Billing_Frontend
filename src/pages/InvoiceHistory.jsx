@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Search, Plus, FileText } from "lucide-react";
-import { useInvoices } from "../contexts/InvoiceContext";
+import { useInvoices } from "../contexts/invoiceContext";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
