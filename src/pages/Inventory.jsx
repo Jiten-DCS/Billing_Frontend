@@ -6,7 +6,7 @@ import ProductTable from '../components/inventory/ProductTable';
 import AddStockModal from '../components/inventory/AddStockModal';
 import AddProductModal from '../components/inventory/AddProductModal';
 import ImportExportButtons from '../components/inventory/ImportButton';
-import { useProducts } from '../contexts/ProductContext';
+import { useProducts } from '../contexts/productContext';
 
 const Inventory = () => {
   const { 

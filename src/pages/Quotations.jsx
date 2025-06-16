@@ -3,7 +3,7 @@ import { Search, Plus, FileText, Calendar, Delete, Trash2 } from "lucide-react";
 import QuotationModal from "../components/Quotetion/QuotationModal";
 import NewQuotationModal from "../components/Quotetion/NewQuotationModal";
 import { useQuotations } from "../contexts/quotationContext";
-import { useProducts } from "../contexts/ProductContext";
+import { useProducts } from "../contexts/productContext";
 import { useCustomers } from "../contexts/customerContext";
 import { toast } from "sonner";
 

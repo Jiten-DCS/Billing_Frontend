@@ -7,7 +7,7 @@ import { toast } from "sonner";
 import InvoiceTable from "../components/invoices/InvoiceTable";
 import NewInvoiceModal from "../components/invoices/NewInvoiceModal";
 import InvoicePreviewModal from "../components/invoices/InvoicePreviewModal";
-import { useProducts } from "../contexts/ProductContext";
+import { useProducts } from "../contexts/productContext";
 
 const InvoiceHistory = () => {
   const {

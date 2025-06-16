@@ -8,7 +8,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import { CustomerProvider } from "./contexts/customerContext";
 import { AuthProvider } from "./contexts/authContext";
 import { ProductProvider } from "./contexts/productContext";
-import { QuotationProvider } from "./contexts/quotationContext";
+import { QuotationProvider } from "./contexts/quotationContext.jsx";
 import { TransactionProvider } from "./contexts/transactionContext";
 
 // Components
