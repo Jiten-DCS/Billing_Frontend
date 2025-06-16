@@ -24,7 +24,7 @@ import NotFound from "./pages/NotFound";
 import UsersList from "./components/User/UsersList";
 import { PettyCashProvider } from "./contexts/PettyCashContext";
 import PettyCashManager from "./pages/PettyCashManager";
-import { InvoiceProvider } from "./contexts/InvoiceContext.jsx";
+import { InvoiceProvider } from "./contexts/invoiceContext.jsx";
 
 const App = () => (
   <BrowserRouter>
